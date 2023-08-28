@@ -31,15 +31,16 @@ img{
     height: 200px;
 }
  
-.shadow{
+.shadow:hover{
     margin-top: 50px;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.349);
     width: 250px;
     height: 300px;
     border-radius: 10px;
     background-color: rgba(250, 250, 250, 0.836);
+    transform: scale(1.1);
+    
 }
-
 .spc{
     margin-top: 30px;
     margin-bottom: 30px;
