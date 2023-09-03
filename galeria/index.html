@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotos | Visita</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>VISITA TÉCNICA - IFRO</h1>
+        <p class="campus">Campus Colorado do Oeste</p>
+    </header>
+
+    <div class="relatorio">
+        <p> &emsp;&emsp;&emsp;No dia 9 de agosto, os alunos do curso de Informática do IFRO Campus Vilhena realizaram uma visita técnica ao IFRO Campus Colorado do Oeste. O professor Glauber do campus Colorado foi quem admisnistrou  a oficina de fotografia e quem nos recebeu. Na oficina de fotografia, ele os ensinou os conceitos e as técnicas da fotografia digital e como fazer um canal de vídeos educativos para a comunidade. A visita também mostrou como a tecnologia é importante para os projetos e como funciona o sistema "IFRO Mobile", que permite que eles se comuniquem com os alunos e professores dos outros institutos federais. Além disso, os professores do câmpus Colorado admnistraram uma visita aos lugares onde eles cuidam dos animais e das plantas do campus. A visita foi muito proveitosa e mostrou como a tecnologia pode ser usada em várias áreas e ajudar a aprender mais e melhorar a sociedade  e como o curso tenico de lá é desenvolvido.
+            <br>&emsp;&emsp;&emsp;Em resumo, a visita técnica ao Campus Colorado do Oeste foi uma jornada de aprendizado enriquecedora, destacando a oficina de fotografia como um momento inspirador. Além disso, a exploração das instalações de cuidado com animais e plantas demonstrou claramente o compromisso com a conservação ambiental e a educação na instituição. Agradecemos ao professor Glauber e à equipe do Campus Colorado do Oeste por nos receberem de forma tão acolhedora e educativa.
+        </p>
+
+      
+    </div>
+
+    <div class="galeria">
+        <img class="miniatura" src="img/img1.jpeg" width="200" alt="1"
+            onclick="openModal('img/img1.jpeg')">
+
+        <img class="miniatura" src="img/img2.jpeg" width="200" alt="2" 
+        onclick="openModal('img/img2.jpeg')">
+
+        <img class="miniatura" src="img/img3.jpeg" width="200" alt="3"
+            onclick="openModal('img/img3.jpeg')">
+
+        <img class="miniatura" src="img/img4.jpeg" width="200" alt="4"
+            onclick="openModal('img/img4.jpeg')">
+
+        <img class="miniatura" src="img/img5.jpeg" width="200" alt="5"
+            onclick="openModal('img/img5.jpeg')">
+
+        <img class="miniatura" src="img/img6.jpeg" width="200" alt="6"
+            onclick="openModal('img/img6.jpeg')">
+
+        <img class="miniatura" src="img/img7.jpeg" width="200" alt="7"
+            onclick="openModal('img/img7.jpeg')">
+
+        <img class="miniatura" src="img/img8.jpeg" width="200" alt="8"
+            onclick="openModal('img/img8.jpeg')">
+
+        <img class="miniatura" src="img/img9.jpeg" width="200" alt="9"
+            onclick="openModal('img/img9.jpeg')">
+            
+        <img class="miniatura" src="img/img10.jpeg" width="200" alt="10"
+            onclick="openModal('img/img10.jpeg')">
+        
+    </div>
+
+
+    <div class="gallery-controls">
+        <button class="bt" id="prev-button"></button>
+        <button class="bt" id="next-button"></button>
+    </div>
+</div>
+
+<div class="modal" id="modal" onclick="closeModal()">
+    <div class="modal-content">
+        <span class="modal-close" onclick="closeModal()">&times;</span>
+        <img class="modal-image" id="modalImage" alt="Imagem da galeria">
+    </div>
+</div>
+  
+    <footer>
+        &copy; 2023 Tartas| Todos os direitos reservados
+      </footer>
+
+    <script src="java.js"></script>
+</body>
