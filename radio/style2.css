@@ -16,7 +16,7 @@ header {
     justify-content: flex-end;
     padding: 0,1px 0;
     color: rgb(255, 255, 255);
-    background-color: #f1aec3;
+    background: repeating-linear-gradient(to right, #f1aec3, #e04f7d);
     border-radius: 5px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
