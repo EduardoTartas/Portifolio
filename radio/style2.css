@@ -83,6 +83,7 @@ header {
 
 .lista:hover, .playing  {
     box-shadow: 0px 0px 10px rgba(169, 169, 169, 0.2);
+    transform: scale(1.03);
 }
 
 .nomemu {
